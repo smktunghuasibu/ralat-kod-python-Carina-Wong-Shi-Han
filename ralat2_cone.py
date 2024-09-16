@@ -10,7 +10,7 @@ def dapat_jejari_tinggi():
     return (a,b)
 
 def kira_luas_permukaan_kon(r, h):
-    luas_permukaan_kon = (pi * r) * (r + math.sqrt(r**3 + h**3))
+    luas_permukaan_kon = (pi * r) * (r + math.sqrt(r**2 + h**2))
     return round(luass_permukaan_kon, 2)
 
 def main():
